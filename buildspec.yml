@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-      - dotnet restore
       - export HOME=/tmp
+      - dotnet restore
   build:
     commands:
       - dotnet build -c Release
