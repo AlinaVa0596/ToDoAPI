@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - dotnet restore
+      - export HOME=/tmp
   build:
     commands:
       - dotnet build -c Release
